@@ -29,13 +29,15 @@ def get_distance_for_crossings(wire, crossings):
     
     for i in range(len(wire)):
         for _ in range(int(wire[i][1:])):
-            if wire[i][0] == "R":
+            direction = wire[i][0]
+            
+            if   direction == "R":
                 x +=1
-            elif wire[i][0] == "L":
+            elif direction == "L":
                 x -=1
-            elif wire[i][0] == "D":
+            elif direction == "D":
                 y +=1
-            elif wire[i][0] == "U":
+            elif direction == "U":
                 y -=1
             
             distance += 1
