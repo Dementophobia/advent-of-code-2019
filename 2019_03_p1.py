@@ -35,7 +35,7 @@ def solve():
 
     crossings = positions_1.intersection(positions_2)
     
-    return min([manhattan(pos) for pos in crossings])
+    return min(manhattan(pos) for pos in crossings)
 
 result = solve()
 print(f"Solution: {result}")

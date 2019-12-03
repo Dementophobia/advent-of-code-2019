@@ -63,7 +63,7 @@ def solve():
     crossing_distance_1 = get_distance_for_crossings(wire_1, crossings)
     crossing_distance_2 = get_distance_for_crossings(wire_2, crossings)
 
-    return min([crossing_distance_1[crossing] + crossing_distance_2[crossing] for crossing in crossings])
+    return min(crossing_distance_1[crossing] + crossing_distance_2[crossing] for crossing in crossings)
 
 result = solve()
 print(f"Solution: {result}")
