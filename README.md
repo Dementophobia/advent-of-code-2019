@@ -8,7 +8,7 @@ My [Advent of Code](https://adventofcode.com/2019) (Season 2019) solutions writt
 | [Day 3](https://adventofcode.com/2019/day/3)   | [Part 1](./2019_03_p1.py) and [Part 2](./2019_03_p2.py) | [List Comprehension](https://twitter.com/Dementophobia/status/1201749348083781632) |
 | [Day 4](https://adventofcode.com/2019/day/4)   | [Part 1](./2019_04_p1.py) and [Part 2](./2019_04_p2.py) | [Short Circuiting](https://twitter.com/Dementophobia/status/1202108904429309952) |
 | [Day 5](https://adventofcode.com/2019/day/5)   | [Part 1](./2019_05_p1.py) and [Part 2](./2019_05_p2.py) | [Zero Padding with F-Strings](https://twitter.com/Dementophobia/status/1202487898194546689) |
-| [Day 6](https://adventofcode.com/2019/day/6)   |                                                         |                                                              |
+| [Day 6](https://adventofcode.com/2019/day/6)   | [Part 1](./2019_06_p1.py) and [Part 2](./2019_06_p2.py) | [Intersection of Sets](https://twitter.com/Dementophobia/status/1202848979328876546) |
 | [Day 7](https://adventofcode.com/2019/day/7)   |                                                         |                                                              |
 | [Day 8](https://adventofcode.com/2019/day/8)   |                                                         |                                                              |
 | [Day 9](https://adventofcode.com/2019/day/9)   |                                                         |                                                              |
