@@ -1,5 +1,6 @@
 from aoc import read_file, timer
 from collections import defaultdict
+from os import path
 from PIL import Image, ImageDraw
 
 def extract_layers(raw, size):
@@ -25,7 +26,8 @@ def print_image(layers):
                     draw.ellipse((x*scale, y*scale, x*scale+scale-1, y*scale+scale-1), fill=(255, 255, 255))
                 elif layers[layer][pos] == 1:
                     draw.ellipse((x*scale, y*scale, x*scale+scale-1, y*scale+scale-1), fill=(0, 0, 0))
-        img.save(f"images\BIOS{100-layer}.png", 'PNG')
+        file_path = path.join('images', f"BIOS{100-layer:03}.png")
+        img.save(file_path, 'PNG')
 
 @timer
 def solve():
