@@ -10,6 +10,8 @@ Afterwards, all you have to do is import the result in Gimp, tinker with the bac
 Here is the result for my input:
 
 <p align="center"><img src="./day_8_bios.gif"></p>
+
+
 ## Day 11 - Another Animation using Python and Gimp
 
 I could reuse some of my code from day 8 to create an animation for day 11 as well. Again, I used my [python script](../2019_11_animation.py) to generate the individual images and did the rest with Gimp.
