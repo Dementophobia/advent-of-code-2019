@@ -14,7 +14,7 @@ My [Advent of Code](https://adventofcode.com/2019) (Season 2019) solutions writt
 | [Day 9](https://adventofcode.com/2019/day/9)   | [Part 1](./2019_09_p1.py) and [Part 2](./2019_09_p2.py)      | [Defaultdict from Collections](https://twitter.com/Dementophobia/status/1203932274280022017) |
 | [Day 10](https://adventofcode.com/2019/day/10) | [Part 1](./2019_10_p1.py) and [Part 2](./2019_10_p2.py)      | [Sorting with Function as Key](https://twitter.com/Dementophobia/status/1204468347917783042) |
 | [Day 11](https://adventofcode.com/2019/day/11) | [Part 1](./2019_11_p1.py) and [Part 2](./2019_11_p2.py) <br />Bonus: [Animated Solution](./extras/README.md#day-11---another-animation-using-python-and-gimp) | [Using Modulo for Turning](https://twitter.com/Dementophobia/status/1204657448361086976) |
-| [Day 12](https://adventofcode.com/2019/day/12) |                                                              |                                                              |
+| [Day 12](https://adventofcode.com/2019/day/12) | [Part 1](./2019_12_p1.py) and [Part 2](./2019_12_p2.py)      | [Regex based Integer Extractor](https://twitter.com/Dementophobia/status/1205239170219814934) |
 | [Day 13](https://adventofcode.com/2019/day/13) |                                                              |                                                              |
 | [Day 14](https://adventofcode.com/2019/day/14) |                                                              |                                                              |
 | [Day 15](https://adventofcode.com/2019/day/15) |                                                              |                                                              |
