@@ -12,6 +12,7 @@ Here is the result for my input:
 <p align="center"><img src="./day_8_bios.gif"></p>
 
 
+
 ## Day 11 - Another Animation using Python and Gimp
 
 I could reuse some of my code from day 8 to create an animation for day 11 as well. Again, I used my [python script](../2019_11_animation.py) to generate the individual images and did the rest with Gimp.
@@ -19,6 +20,15 @@ I could reuse some of my code from day 8 to create an animation for day 11 as we
 Watch my little robot paint the hull:
 
 <p align="center"><img src="./day_11_hull.gif"></p>
+
+
+## Day 15 - Flooding the Area with Oxygen
+
+Still sticking to my guns with Python and Gimp. Today my [python script](../2019_15_animation.py) floods the base with oxygen:
+
+<p align="center"><img src="./day_15_area.gif"></p>
+
+
 
 # About the Author
 

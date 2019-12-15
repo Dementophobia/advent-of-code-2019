@@ -17,7 +17,7 @@ My [Advent of Code](https://adventofcode.com/2019) (Season 2019) solutions writt
 | [Day 12](https://adventofcode.com/2019/day/12) | [Part 1](./2019_12_p1.py) and [Part 2](./2019_12_p2.py)      | [Regex based Integer Extractor](https://twitter.com/Dementophobia/status/1205239170219814934) |
 | [Day 13](https://adventofcode.com/2019/day/13) | [Part 1](./2019_13_p1.py) and [Part 2](./2019_13_p2.py)      |                                                              |
 | [Day 14](https://adventofcode.com/2019/day/14) |                                                              |                                                              |
-| [Day 15](https://adventofcode.com/2019/day/15) |                                                              |                                                              |
+| [Day 15](https://adventofcode.com/2019/day/15) | [Part 1](./2019_15_p1.py) and [Part 2](./2019_15_p2.py)<br />Bonus: [Animated Solution](./extras/README.md#day-15---flooding-the-area-with-oxygen) | [Animation on Twitter](https://twitter.com/Dementophobia/status/1206145009910763521) |
 | [Day 16](https://adventofcode.com/2019/day/16) |                                                              |                                                              |
 | [Day 17](https://adventofcode.com/2019/day/17) |                                                              |                                                              |
 | [Day 18](https://adventofcode.com/2019/day/18) |                                                              |                                                              |
