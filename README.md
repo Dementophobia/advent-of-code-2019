@@ -18,7 +18,7 @@ My [Advent of Code](https://adventofcode.com/2019) (Season 2019) solutions writt
 | [Day 13](https://adventofcode.com/2019/day/13) | [Part 1](./2019_13_p1.py) and [Part 2](./2019_13_p2.py)      |                                                              |
 | [Day 14](https://adventofcode.com/2019/day/14) |                                                              |                                                              |
 | [Day 15](https://adventofcode.com/2019/day/15) | [Part 1](./2019_15_p1.py) and [Part 2](./2019_15_p2.py)<br />Bonus: [Animated Solution](./extras/README.md#day-15---flooding-the-area-with-oxygen) | [Calling Function from List](https://twitter.com/Dementophobia/status/1206182646289780742) |
-| [Day 16](https://adventofcode.com/2019/day/16) |                                                              |                                                              |
+| [Day 16](https://adventofcode.com/2019/day/16) | [Part 1](./2019_16_p1.py) and [Part 2](./2019_16_p2.py)      | [Using Deques for Shifting](https://twitter.com/Dementophobia/status/1206619272946036736) |
 | [Day 17](https://adventofcode.com/2019/day/17) |                                                              |                                                              |
 | [Day 18](https://adventofcode.com/2019/day/18) |                                                              |                                                              |
 | [Day 19](https://adventofcode.com/2019/day/19) |                                                              |                                                              |
