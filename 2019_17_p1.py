@@ -52,7 +52,7 @@ def get_values(input, pos, op, modes, game):
 
     return values, offset
   
-def run_game(game, input = 10):
+def run_game(game, input = 0):
     while game.prog[game.ip] != 99:
         op, modes = split_instruction(game.prog[game.ip])
         values, offset = get_values(game.prog, game.ip, op, modes, game)
@@ -115,57 +115,44 @@ def create_program(input):
     
     return prog
 
-def error_message(game):
-    print(chr(game.output), end = "")
-    while not game.halt:
-        print(chr(run_game(game).output), end = "")
+def get_size(field):
+    len_y, len_x = 0, 0
+    for position in field.keys():
+        len_x = max(len_x, position[0])
+        len_y = max(len_y, position[1])
+            
+    return len_x, len_y
 
-@timer
 def solve():
     input  = read_file("17")[0].split(",")
-    input[0] = 2
     prog   = create_program(input)
     game   = Game(prog)
     
     field = defaultdict(str)
     x, y = 0, 0
     
-    while not game.halt and y < 30:
-        run_game(game, 0)
+    while not game.halt:
+        run_game(game)
         if game.output == 10:
-            print()
             y += 1
             x = 0
         else:
-            print(chr(game.output), end = "")
             field[(x, y)] = chr(game.output)
             x += 1
-
-    instructions = []
-    instructions.append([ord(c) for c in "A,C,B,C,A,B,A,B,C\n"])
-    instructions.append([ord(c) for c in "L,12,R,4,R,4,R,12\n"])
-    instructions.append([ord(c) for c in "L,10,L,6,R,4\n"])
-    instructions.append([ord(c) for c in "L,12,R,4,R,4,L,6\n"])
-    instructions.append([ord(c) for c in "n\n"])
-
-    while run_game(game).output != 10:
         print(chr(game.output), end = "")
-    print()
+    
+    len_x, len_y = get_size(field)
+    result = 0
 
-    for inst in instructions:
-        for num in inst:
-            print(f"Input: {num} / {chr(num)}")
-        
-            run_game(game, num)
-        
-            if game.output != 10:
-                error_message(game)
-                break
-        if game.halt:
-            break
-
-    return 0
+    for y in range(1, len_y):
+        for x in range(1, len_x):
+           if field[(x-1, y)] == "#" and \
+              field[(x, y-1)] == "#" and \
+              field[(x+1, y)] == "#" and \
+              field[(x, y+1)] == "#":
+                result += x * y
+    
+    return result
 
 result = solve()
 print(f"Solution: {result}")
-
