@@ -1,9 +1,11 @@
 import time
 
-def read_file(name):
-    with open(f"files/input{name}") as f:
+def read_file(name, strip = True):
+    with open("files/input" + name) as f:
         content = f.readlines()
-    return [x.strip() for x in content]
+    if strip:
+        return [x.strip() for x in content]
+    return content
 
 def timer(func):
     def wrapper(*args, **kwargs):
