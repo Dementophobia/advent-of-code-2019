@@ -2,7 +2,6 @@ from aoc import read_file, timer
 from collections import defaultdict
 from copy import copy
 
-
 class Dungeon:
     def __init__(self, layout):
         self.area         = defaultdict(str)
