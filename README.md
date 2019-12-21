@@ -23,7 +23,7 @@ My [Advent of Code](https://adventofcode.com/2019) (Season 2019) solutions writt
 | [Day 18](https://adventofcode.com/2019/day/18) | [Part 1](./2019_18_p1.py) and [Part 2](./2019_18_p2.py)      | -                                                            |
 | [Day 19](https://adventofcode.com/2019/day/19) | [Part 1](./2019_19_p1.py) and [Part 2](./2019_19_p2.py)      | -                                                            |
 | [Day 20](https://adventofcode.com/2019/day/20) | [Part 1](./2019_20_p1.py) and [Part 2](./2019_20_p2.py)      | -                                                            |
-| [Day 21](https://adventofcode.com/2019/day/21) |                                                              |                                                              |
+| [Day 21](https://adventofcode.com/2019/day/21) | [Part 1](./2019_21_p1.py) and [Part 2](./2019_21_p2.py)      | -                                                            |
 | [Day 22](https://adventofcode.com/2019/day/22) |                                                              |                                                              |
 | [Day 23](https://adventofcode.com/2019/day/23) |                                                              |                                                              |
 | [Day 24](https://adventofcode.com/2019/day/24) |                                                              |                                                              |
