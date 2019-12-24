@@ -26,6 +26,6 @@ My [Advent of Code](https://adventofcode.com/2019) (Season 2019) solutions writt
 | [Day 21](https://adventofcode.com/2019/day/21) | [Part 1](./2019_21_p1.py) and [Part 2](./2019_21_p2.py)      | -                                                            |
 | [Day 22](https://adventofcode.com/2019/day/22) | [Part 1](./2019_22_p1.py) and [Part 2](./2019_22_p2.py)      | [Calculating the Modular Multiplicative Inverse](https://twitter.com/Dementophobia/status/1208778678710222848) |
 | [Day 23](https://adventofcode.com/2019/day/23) | [Part 1](./2019_23_p1.py) and [Part 2](./2019_23_p2.py)<br />Bonus: [Animated Solution](./extras/README.md#day-23---network-analysis) | -                                                            |
-| [Day 24](https://adventofcode.com/2019/day/24) |                                                              |                                                              |
+| [Day 24](https://adventofcode.com/2019/day/24) | [Part 1](./2019_24_p1.py) and [Part 2](./2019_24_p2.py)      | [Counting with List Comprehensions](https://twitter.com/Dementophobia/status/1209368903253708800) |
 | [Day 25](https://adventofcode.com/2019/day/25) |                                                              |                                                              |
 
